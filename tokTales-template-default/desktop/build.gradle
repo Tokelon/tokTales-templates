@@ -1,0 +1,30 @@
+/* Desktop module that contains code that is specific for the Desktop platform.
+ */
+
+
+apply plugin: 'application'
+
+application {
+    mainClassName = 'com.template.def.desktop.Main'
+}
+
+tasks.withType(JavaExec) {
+    // Logging configuration file
+    systemProperty 'logback.configurationFile', 'Data/Assets/logback.xml'
+}
+
+
+dependencies {
+    implementation project(':core')
+
+    // Desktop library for tokTales Engine
+    implementation 'com.tokelon.toktales:tokTales-desktop-library:0.0.1+'
+
+    // Runtime dependency for logging
+    runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
+}
+
+
+// Java version compatibility
+sourceCompatibility = "8"
+targetCompatibility = "8"
