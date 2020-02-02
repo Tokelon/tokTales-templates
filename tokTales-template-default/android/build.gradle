@@ -12,7 +12,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
-        versionName "0.0.1"
+        versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -50,7 +50,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
     // Android library for tokTales Engine
-    implementation 'com.tokelon.toktales:tokTales-android-library:0.0.1+'
+    implementation 'com.tokelon.toktales:tokTales-android-library:0.1.0'
 
     // Runtime dependency for logging
     runtimeOnly 'com.github.tony19:logback-android:2.0.0'
