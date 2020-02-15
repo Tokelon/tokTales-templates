@@ -1,0 +1,14 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+allprojects {
+    repositories {
+        jcenter() // The tokTales packages are included in JCenter
+    }
+}
+
+
+// Added because the root project has no clean task
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

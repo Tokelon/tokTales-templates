@@ -1,0 +1,23 @@
+/* Application module that contains all code for the Desktop platform.
+ */
+
+
+apply plugin: 'application'
+
+application {
+    mainClassName = 'com.template.desktop.Main'
+}
+
+tasks.withType(JavaExec) {
+    // Logging configuration file
+    systemProperty 'logback.configurationFile', 'Data/Assets/logback.xml'
+}
+
+
+dependencies {
+    // Desktop library for tokTales Engine
+    implementation 'com.tokelon.toktales:tokTales-desktop-library:0.1.0'
+
+    // Runtime dependency for logging
+    runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
+}
