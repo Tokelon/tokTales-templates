@@ -6,7 +6,9 @@
 
 | Project Name | Description | Build |
 | ------------ | ----------- | ----- |
-| tokTales-template-default | The default template that includes all platforms. | ![tokTales-template-default CI](https://github.com/Tokelon/tokTales-templates/workflows/tokTales-template-default%20CI/badge.svg) |
+| tokTales-template-default | The default template that supports all platforms. | ![tokTales-template-default CI](https://github.com/Tokelon/tokTales-templates/workflows/tokTales-template-default%20CI/badge.svg) |
+| tokTales-template-desktop | A template with support for the Desktop platform. | ![tokTales-template-desktop CI](https://github.com/Tokelon/tokTales-templates/workflows/tokTales-template-desktop%20CI/badge.svg) |
+| tokTales-template-android | A template with support for the Android platform. | ![tokTales-template-android CI](https://github.com/Tokelon/tokTales-templates/workflows/tokTales-template-android%20CI/badge.svg) |
 
 ## Setup
 
