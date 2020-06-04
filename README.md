@@ -17,11 +17,12 @@ Download a template project, replace all placeholder values with your own and st
 ### Step by step
 
 1. Clone or download this repository
-2. Copy template project folder to target location
+2. Choose template and copy project folder to target location
 3. Rename template project folder to target project name
 4. Rename Java packages to target project package names
-5. Android: Set `package` value in **AndroidManifest.xml** to target application package
-6. Android: Set `applicationId` in Android **build.gradle** to target application id
+5. Android: Set value of `package` in **AndroidManifest.xml** to target application package
+6. Android: Set value of `applicationId` in Android **build.gradle** to target application id
+7. Desktop: Adjust value of `mainClassName` in Desktop **build.gradle**, if necessary
 
 ### Optional
 
