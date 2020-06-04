@@ -5,7 +5,7 @@
 apply plugin: 'application'
 
 application {
-    mainClassName = 'com.template.def.desktop.Main'
+    mainClassName = 'com.template.def.desktop.Application'
 }
 
 tasks.withType(JavaExec) {
