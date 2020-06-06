@@ -7,7 +7,7 @@ apply plugin: 'java-library'
 
 dependencies {
     // Core library for tokTales Engine
-    api 'com.tokelon.toktales:tokTales-core-library:0.1.0'
+    api 'com.tokelon.toktales:tokTales-core-library:0.2.0'
 }
 
 
