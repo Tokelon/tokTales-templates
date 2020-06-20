@@ -1,6 +1,6 @@
 # tokTales Engine - Templates
 
-> Contains project templates for getting started with **[tokTales Engine](https://github.com/Tokelon/tokTales)**.
+> Contains template projects for getting started with **[tokTales Engine](https://github.com/Tokelon/tokTales)**.
 
 ## Projects
 
@@ -9,6 +9,12 @@
 | tokTales-template-default | The default template that supports all platforms. | ![tokTales-template-default CI](https://github.com/Tokelon/tokTales-templates/workflows/tokTales-template-default%20CI/badge.svg) |
 | tokTales-template-desktop | A template with support for the Desktop platform. | ![tokTales-template-desktop CI](https://github.com/Tokelon/tokTales-templates/workflows/tokTales-template-desktop%20CI/badge.svg) |
 | tokTales-template-android | A template with support for the Android platform. | ![tokTales-template-android CI](https://github.com/Tokelon/tokTales-templates/workflows/tokTales-template-android%20CI/badge.svg) |
+
+## How to Use
+
+These templates are meant to be used as starting points from which to develop an application using this project. There are multiple templates, each for different use cases, focused mainly on the platform support they provide.
+
+For more resources see **[Resource Hub](https://github.com/Tokelon/tokTales/wiki/Resources)**.
 
 ## Setup
 
