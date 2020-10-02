@@ -5,16 +5,17 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 30
+
     defaultConfig {
         applicationId "com.template.android"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -27,6 +28,8 @@ android {
 
     // Java version compatibility
     compileOptions {
+        coreLibraryDesugaringEnabled true
+
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
@@ -39,16 +42,20 @@ android {
 
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+
+    // Android compatibility to Java 8
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.0.10'
 
 
     // Android compatibility library
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
 
     // Android library for tokTales Engine
-    implementation 'com.tokelon.toktales:tokTales-android-library:0.2.0'
+    implementation 'com.tokelon.toktales:tokTales-android-library:0.2.1-rc1'
 
     // Runtime dependency for logging
     runtimeOnly 'com.github.tony19:logback-android:2.0.0'
