@@ -16,7 +16,7 @@ tasks.withType(JavaExec) {
 
 dependencies {
     // Desktop library for tokTales Engine
-    implementation 'com.tokelon.toktales:tokTales-desktop-library:0.2.1-rc1'
+    implementation 'com.tokelon.toktales:tokTales-desktop-library:0.2.1'
 
     // Runtime dependency for logging
     runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
